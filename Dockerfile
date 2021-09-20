@@ -2,7 +2,6 @@ FROM haskell:latest
 
 # setup
 RUN stack setup
-RUN stack install cabal
 
 # other tools
 RUN apt update
